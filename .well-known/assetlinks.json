@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.EthernityTeam.cyberbuddy",
+    "sha256_cert_fingerprints": ["46:D4:51:99:26:5D:DC:1B:6F:D3:25:30:82:4E:EF:01:66:35:41:F9:47:91:79:CE:C2:C1:5E:16:1D:61:3E:77"]
+  }
+}]
