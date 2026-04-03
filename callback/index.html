@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head><meta charset="UTF-8"><title>CyberBuddy Auth</title></head>
-<body style="text-align:center;padding-top:50px;font-family:sans-serif;background-color:#F0F9FF;">
-    <h2>CyberBuddy</h2>
-    <p>Авторизація... Додаток має відкритися автоматично.</p>
+<body>
+    <script>
+        const hash = window.location.hash;
+        if (hash) {
+            window.location.href = "cyberbuddy://" + hash;
+        }
+    </script>
 </body>
 </html>
